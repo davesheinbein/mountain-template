@@ -4,7 +4,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	@include widthHeight(100vw, fit-content);
+	@include widthHeight(100%, fit-content);
 	@include flexDirJusAli(column, center, center);
 	background: rgba(60, 73, 97, 0.75);
 	.rec-carousel-wrapper {
@@ -21,7 +21,7 @@
 								img {
 									outline-width: 0;
 									outline: none;
-									width: 90%;
+									width: 95%;
 								}
 							}
 						}
@@ -30,6 +30,7 @@
 			}
 		}
 		.rec-pagination {
+			transform: scale(0.75);
 			.rec-dot {
 				background: #636d81;
 				border-color: #636d81;

@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/Logo.png'
+import logoB from '../../images/LogoB.png'
 import './style/Footer.css';
 
 function Footer() {
@@ -7,7 +7,9 @@ function Footer() {
 		<div className='footer'>
 			<div className="footer__container">
 				<div className="footer__logo">
-					<img src={logo} alt="sub Logo"/>
+					<div className="footer__imgContainer">
+					<img src={logoB} alt="sub Logo"/>
+					</div>
 					<div className="footer__logoText">
 						LOSANGELES
 						<br/>

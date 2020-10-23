@@ -2,7 +2,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -36,7 +36,12 @@
 .CarouselSection .rec-carousel-wrapper .rec-carousel .rec-slider-container .rec-slider .rec-swipable .rec-carousel-item .rec-item-wrapper img {
   outline-width: 0;
   outline: none;
-  width: 90%;
+  width: 95%;
+}
+
+.CarouselSection .rec-carousel-wrapper .rec-pagination {
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
 }
 
 .CarouselSection .rec-carousel-wrapper .rec-pagination .rec-dot {

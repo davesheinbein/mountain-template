@@ -11,12 +11,12 @@ function History() {
                     <div className="history__title">HISTORY</div>
                 </div>
                 <div className="history__description">
-                    <div className="history__descriptionText">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin
-                        <br/> 
-                        at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim
-                        <br/> 
-                        Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.
+                    <div className="history__descriptionContainer">
+                        <div className="history__descriptionText">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin
+                            at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim
+                            Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.
+                        </div>
                     </div>
                 </div>
             </div>

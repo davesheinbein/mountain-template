@@ -10,7 +10,7 @@ const Header = props => (
 <header className="header">
     <nav className="header__navigation">
         <div className="header__logo">
-            <a href="/"><img src={logo} alt="logo"/></a>
+            <a href="https://github.com/davesheinbein/mountain-template"><img src={logo} alt="logo"/></a>
         </div>
         <div className="header__navigationItems">
             <ul>

@@ -9,7 +9,7 @@
 	.history__container {
 		@include widthHeight(100%, 100%);
 		@include flexDirJusAli(column, flex-start, center);
-		margin: 0 2em;
+		@include noSelection;
 		.history__heading {
 			@include widthHeight(100%, fit-content);
 			max-width: 900px;
@@ -28,12 +28,17 @@
 		}
 		.history__description {
 			@include widthHeight(100%, 100%);
-			.history__descriptionText {
-				@include widthHeight(100%, fit-content);
-				@include flexDirJusAli(row, center, center);
-				color: #000000;
-				font-size: 16px;
-				font-family: 'Lato', sans-serif;
+			@include flexDirJusAli(column, flex-start, center);
+			.history__descriptionContainer {
+				@include widthHeight(80%, 100%);
+				.history__descriptionText {
+					@include widthHeight(100%, fit-content);
+					@include flexDirJusAli(row, center, center);
+					color: #000000;
+					font-size: 16px;
+					line-height: 24px;
+					font-family: 'Lato', sans-serif;
+				}
 			}
 		}
 	}

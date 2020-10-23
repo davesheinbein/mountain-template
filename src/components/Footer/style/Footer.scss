@@ -11,28 +11,38 @@
 		@include widthHeight(100%, 100%);
 		max-width: 1000px;
 		padding: 0 2rem;
-		opacity: 0.25;
+
 		.footer__logo {
 			display: flex;
-			img {
-				@include widthHeight(100%, fit-content);
+			.footer__imgContainer {
+				@include widthHeight(100%, 100%);
 				margin-right: 0.5em;
+				position: relative;
+				img {
+					@include widthHeight(100%, fit-content);
+				}
 			}
 			.footer__logoText {
 				font-family: 'Bebas Neue', cursive;
 				font-size: 22.84px;
 				line-height: 25.84px;
-				color: #ffffff;
+				color: #63769d;
 				span {
-					color: #ffffff;
+					color: #63769d;
 				}
 			}
 		}
 		.footer__copyright {
 			margin-left: auto;
 			.footer__copyrightText {
-				color: #ffffff;
+				color: #63769d;
 			}
 		}
 	}
 }
+
+@media (max-width: 768px) {
+	.footer__copyright {
+		padding-left: 3em;
+	}
+} ;

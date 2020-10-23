@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer from '../../components/Footer/Footer';
 // Components
 import Header from '../../components/Header/Header';
 import HeroImg from '../../components/HeroImg/HeroImg';
@@ -8,6 +7,8 @@ import Section from '../../components/Section/Section'
 import Sidebar from '../../components/Sidebar/Sidebar';
 import SidebarBackdrop from '../../components/SidebarBackdrop/SidebarBackdrop';
 import SubSection from '../../components/SubSection/SubSection';
+import Climb from '../../components/Climb/Climb';
+import Footer from '../../components/Footer/Footer';
 // images
 import heroImg from '../../images/HeroImg.png'
 // style
@@ -47,7 +48,7 @@ class App extends Component {
           <History />
         </Section>
         <Section>
-          Hey
+          <Climb />
         </Section>
         <Footer />
       </div>
