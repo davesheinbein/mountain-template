@@ -32,6 +32,7 @@
 			@include flexDirJusAli(column, flex-start, center);
 			.history__descriptionContainer {
 				@include widthHeight(80%, 100%);
+				max-width: 825px;
 				.history__descriptionText {
 					@include widthHeight(100%, fit-content);
 					@include flexDirJusAli(row, center, center);

@@ -56,3 +56,11 @@
 		}
 	}
 }
+
+@media (max-width: 361px) {
+	.subSection
+		.subSection__container
+		.subSection__navigationItems {
+		margin-left: 3em;
+	}
+}

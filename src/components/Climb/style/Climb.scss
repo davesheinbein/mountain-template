@@ -29,6 +29,7 @@
 				transform: translate(-0.75em, -1.75em);
 			}
 			.climb__description {
+				margin-left: 0.5em;
 				color: #000000;
 				font-size: 16px;
 				line-height: 24px;
@@ -78,6 +79,7 @@
 		@include widthHeight(100%, fit-content);
 	}
 }
+
 .climbNewBg {
 	@include widthHeight(100%, 100%);
 	background: url(../../../images/climbBg02img.png);
@@ -103,9 +105,10 @@
 				color: #414f6b;
 				font-size: 32px;
 				font-weight: 600;
-				transform: translate(-0.75em, -2em);
+				transform: translate(-0.75em, -1.75em);
 			}
 			.climb__description {
+				margin-left: 0.5em;
 				color: #000000;
 				font-size: 16px;
 				line-height: 24px;

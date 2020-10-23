@@ -94,6 +94,7 @@
 .history .history__container .history__description .history__descriptionContainer {
   width: 80%;
   height: 100%;
+  max-width: 825px;
 }
 
 .history .history__container .history__description .history__descriptionContainer .history__descriptionText {

@@ -104,4 +104,12 @@
   outline-width: 0;
   outline: none;
 }
+
+@media (max-width: 361px) {
+  .subSection
+.subSection__container
+.subSection__navigationItems {
+    margin-left: 3em;
+  }
+}
 /*# sourceMappingURL=SubSection.css.map */
