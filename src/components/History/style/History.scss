@@ -19,11 +19,12 @@
 			.history__number {
 				font-size: 135.63px;
 				color: rgba(0, 0, 0, 0.5);
+				transform: translate(-0em, 0.25em);
 			}
 			.history__title {
 				color: #414f6b;
 				font-size: 32px;
-				transform: translate(-0.75em, -2em);
+				transform: translate(-0.75em, -0.75em);
 			}
 		}
 		.history__description {
