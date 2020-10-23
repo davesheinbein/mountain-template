@@ -72,8 +72,8 @@
   color: #414f6b;
   font-size: 32px;
   font-weight: 600;
-  -webkit-transform: translate(-0.75em, -2em);
-          transform: translate(-0.75em, -2em);
+  -webkit-transform: translate(-0.75em, -1.75em);
+          transform: translate(-0.75em, -1.75em);
 }
 
 .climb .climb__container .climb__heading .climb__description {
