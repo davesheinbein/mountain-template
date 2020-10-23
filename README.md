@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **LA Mountains Website**
 
-## Available Scripts
+### Click the link to view the website
 
-In the project directory, you can run:
+[LA Mountains template Website](https://mountain-template.web.app/)
 
-### `npm start`
+### About Us
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##### Mock iMessage Frontend UI built utilizing React, Redux, SASS, and more. Deployed to Firebase utilizing Firebase database and user authentication.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### Project Work:
 
-### `npm test`
+##### https://github.com/davesheinbein
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### LinkedIn:
 
-### `npm run build`
+##### https://www.linkedin.com/in/david-sheinbein/
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshot:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+![Wireframe Sceenshot](screenshots/wireframeScreenshot.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Wireframe Sceenshot](https://imgur.com/MHTXVay)
 
-### `npm run eject`
+![Landing Page Sceenshot](screenshots/heroImgScreenshot.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Landing Page Sceenshot](https://imgur.com/sSTUqNH)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![History Page Sceenshot](screenshots/historyScreenshot.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[History Page Sceenshot](https://imgur.com/NfEneRy)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Climb Page Sceenshot](screenshots/climbScreenshot.png)
 
-## Learn More
+[Climb Page Sceenshot](https://imgur.com/4PHVHVL)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Responsive Header Page Sceenshot](screenshots/responsiveHeaderScreenshot.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Responsive Header Page Sceenshot](https://imgur.com/iaUx5Cy)
 
-### Code Splitting
+![Responsive Header Open Page Sceenshot](screenshots/responsiveHeaderOpenScreenshot.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+[Responsive Header Open Page Sceenshot](https://imgur.com/lMBBGev)
 
-### Analyzing the Bundle Size
+## Technologies Used:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+##### - HTML5
 
-### Making a Progressive Web App
+##### - CSS
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+##### - Sass
 
-### Advanced Configuration
+##### - JavaScript
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+##### - Node.js
 
-### Deployment
+##### - Firebase
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+##### - Git
 
-### `npm run build` fails to minify
+##### - Github
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Potential Next Steps:
+
+##### - [] Create a Dark Mode + Dark mode switch
+
+##### - [X] Update CSS further to make responsive on all size screens
+
+### Click the link to view David Sheinbeins Portfolio website
+
+[David Sheinbein's Portfolio Webstite](http://www.davidsheinbeinportfolio.com/)
