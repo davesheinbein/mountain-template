@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import Footer from '../../components/Footer/Footer';
 // Components
 import Header from '../../components/Header/Header';
+import HeroImg from '../../components/HeroImg/HeroImg';
+import History from '../../components/History/History';
 import Section from '../../components/Section/Section'
 import Sidebar from '../../components/Sidebar/Sidebar';
 import SidebarBackdrop from '../../components/SidebarBackdrop/SidebarBackdrop';
+import SubSection from '../../components/SubSection/SubSection';
+// images
+import heroImg from '../../images/HeroImg.png'
 // style
 import './style/App.css';
 
@@ -34,14 +40,16 @@ class App extends Component {
         <Sidebar show={this.state.sidebarOpen} />
         {sidebarBackdrop}
         <Section>
-          Hey
+          <HeroImg src={heroImg} />
+          <SubSection />
+        </Section>
+        <Section>
+          <History />
         </Section>
         <Section>
           Hey
         </Section>
-        <Section>
-          Hey
-        </Section>
+        <Footer />
       </div>
     )
   }

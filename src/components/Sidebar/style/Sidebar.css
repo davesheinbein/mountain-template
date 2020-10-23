@@ -2,19 +2,21 @@
   width: 70%;
   height: 100%;
   max-width: 400px;
-  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6ba2d3), to(rgba(60, 73, 97, 0.85)));
+  background: linear-gradient(to bottom, #6ba2d3, rgba(60, 73, 97, 0.85));
   -webkit-box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 200;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  font-family: 'Lato', sans-serif;
 }
 
 .sidebar ul {
@@ -41,13 +43,17 @@
 }
 
 .sidebar ul li a {
+  color: #fefeff;
   text-decoration: none;
-  color: #000000;
-  font-size: 1.25rem;
+  border-bottom: 1px solid #fefeff;
+  font-size: 1rem;
+  font-weight: 900;
+  font-style: italic;
 }
 
 .sidebar ul li a:hover, .sidebar ul li a:active {
-  color: #ff0000;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   outline-width: 0;
   outline: none;
 }

@@ -10,10 +10,10 @@ const Sidebar = props => {
         <nav className={sidebarClasses}>
             <ul>
                 <li>
-                    <a href="/">Products</a>
+                    <a href="#history">01. HISTORY</a>
                 </li>
                 <li>
-                    <a href="/">Users</a>
+                    <a href="#team">02. TEAM</a>
                 </li>
             </ul>
         </nav>
