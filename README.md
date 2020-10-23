@@ -24,19 +24,19 @@
 
 ![Landing Page Sceenshot](screenshots/heroImgScreenshot.png)
 
-[Landing Page Sceenshot](https://imgur.com/sSTUqNH)
+[Landing Page Sceenshot](https://imgur.com/R1Of36m)
 
 ![History Page Sceenshot](screenshots/historyScreenshot.png)
 
-[History Page Sceenshot](https://imgur.com/NfEneRy)
+[History Page Sceenshot](https://imgur.com/2mrtWfQ)
 
 ![Climb Page Sceenshot](screenshots/climbScreenshot.png)
 
-[Climb Page Sceenshot](https://imgur.com/4PHVHVL)
+[Climb Page Sceenshot](https://imgur.com/YM5G7bG)
 
 ![Responsive Header Page Sceenshot](screenshots/responsiveHeaderScreenshot.png)
 
-[Responsive Header Page Sceenshot](https://imgur.com/iaUx5Cy)
+[Responsive Header Page Sceenshot](https://imgur.com/TwYPxiX)
 
 ![Responsive Header Open Page Sceenshot](screenshots/responsiveHeaderOpenScreenshot.png)
 
