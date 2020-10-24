@@ -1,9 +1,11 @@
-import React from 'react'
-import './style/SidebarBackdrop.css'
+import React from 'react';
+import './style/SidebarBackdrop.css';
 
-const SidebarBackdrop = props => (
-    <div className="sidebarBackdrop" onClick={props.sidebarBackdropClickHandler} />
+const SidebarBackdrop = (props) => (
+	<div
+		className='sidebarBackdrop'
+		onClick={props.sidebarBackdropClickHandler}
+	/>
 );
 
 export default SidebarBackdrop;
-
